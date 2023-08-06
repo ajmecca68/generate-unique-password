@@ -15,7 +15,7 @@ var pwd_length = prompt("What is the length of the password? (8-129)", "12");
     if (pwd_length === null) {
       return;
         } else {
-    if (pwd_length < 8 || pwd_length > 129) {
+    if (pwd_length < 8 || pwd_length > 128) {
 //if not within length parameters pop an alert and exit function
   alert("Sorry needs to be between 8 and 129");
   return;
