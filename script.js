@@ -10,7 +10,7 @@ var special = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "+", "_", "?", 
 function start() {
 var pwdGen = [];
 //start with prompt for length of password
-var pwd_length = prompt("What is the length of the password? (8-129)", "12"); 
+var pwd_length = prompt("What is the length of the password? (8-128)", "12"); 
   //make sure length requested is between 8 and 129.
     if (pwd_length === null) {
       return;
